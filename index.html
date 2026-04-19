@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thao Nguyen — Front-End Developer CV</title>
+  <meta name="description"
+    content="Professional CV of Thao Nguyen, Front-End Developer specializing in ReactJS, Next.js, React Native, and modern web technologies." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="page-wrapper">
+    <aside class="sidebar">
+      <div class="avatar-ring">
+        <div class="avatar">
+          <img src="avatar.jpg" alt="Thao Nguyen" class="avatar-img" />
+        </div>
+      </div>
+
+      <h1 class="name">Thao Nguyen</h1>
+      <p class="title-tag">Front-End Developer</p>
+      <div class="lang-toggle">
+        <button class="lang-btn active" id="btn-en" onclick="setLang('en')">EN</button>
+        <span class="lang-sep">|</span>
+        <button class="lang-btn" id="btn-vi" onclick="setLang('vi')">VI</button>
+      </div>
+      <section class="sidebar-section">
+        <h3 class="sidebar-heading" data-i18n="sidebar.contact">Contact</h3>
+        <ul class="contact-list">
+          <li>
+            <span class="icon">✉</span>
+            <a href="mailto:huuthao98@gmail.com">huuthao98@gmail.com</a>
+          </li>
+          <li>
+            <span class="icon">✆</span>
+            <span>0343 616 333</span>
+          </li>
+          <li>
+            <span class="icon">⚥</span>
+            <span data-i18n="contact.gender">Male</span>
+          </li>
+          <li>
+            <span class="icon">⌖</span>
+            <span>Ho Chi Minh, Viet Nam</span>
+          </li>
+          <li>
+            <span class="icon">⬡</span>
+            <a href="https://github.com/huuthao98" target="_blank">github.com/huuthao98</a>
+          </li>
+        </ul>
+      </section>
+      <section class="sidebar-section">
+        <h3 class="sidebar-heading" data-i18n="sidebar.skills">Core Skills</h3>
+        <div class="skill-group">
+          <p class="skill-label" data-i18n="skills.lang">Languages</p>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">TypeScript</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <p class="skill-label" data-i18n="skills.lib">Library / Framework</p>
+          <div class="tags">
+            <span class="tag">ReactJS</span>
+            <span class="tag">Next.js</span>
+            <span class="tag">React Native</span>
+            <span class="tag">Redux</span>
+            <span class="tag">Zustand</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <p class="skill-label" data-i18n="skills.ui">UI Libraries</p>
+          <div class="tags">
+            <span class="tag">Ant Design</span>
+            <span class="tag">Material-UI</span>
+            <span class="tag">Shadcn/UI</span>
+            <span class="tag">Tailwind CSS</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <p class="skill-label" data-i18n="skills.other">Other</p>
+          <div class="tags">
+            <span class="tag">Git</span>
+            <span class="tag">REST API</span>
+            <span class="tag">Windows</span>
+          </div>
+        </div>
+      </section>
+      <section class="sidebar-section">
+        <h3 class="sidebar-heading" data-i18n="sidebar.proficiency">Proficiency</h3>
+        <div class="bar-item">
+          <div class="bar-label"><span>ReactJS / Next.js</span><span>90%</span></div>
+          <div class="bar-track">
+            <div class="bar-fill" style="--w:90%"></div>
+          </div>
+        </div>
+        <div class="bar-item">
+          <div class="bar-label"><span>React Native</span><span>82%</span></div>
+          <div class="bar-track">
+            <div class="bar-fill" style="--w:82%"></div>
+          </div>
+        </div>
+        <div class="bar-item">
+          <div class="bar-label"><span>TypeScript</span><span>80%</span></div>
+          <div class="bar-track">
+            <div class="bar-fill" style="--w:80%"></div>
+          </div>
+        </div>
+        <div class="bar-item">
+          <div class="bar-label"><span>UI / UX</span><span>75%</span></div>
+          <div class="bar-track">
+            <div class="bar-fill" style="--w:75%"></div>
+          </div>
+        </div>
+      </section>
+      <section class="sidebar-section">
+        <h3 class="sidebar-heading" data-i18n="sidebar.languages">Languages</h3>
+        <div class="lang-item">
+          <span data-i18n="lang.vietnamese">Vietnamese</span>
+          <span class="lang-level" data-i18n="lang.native">Native</span>
+        </div>
+        <div class="lang-item">
+          <span data-i18n="lang.english">English</span>
+          <span class="lang-level" data-i18n="lang.basic">Basic</span>
+        </div>
+      </section>
+    </aside>
+    <main class="main">
+      <div class="main-header">
+        <div class="header-text">
+          <p class="header-subtitle" data-i18n="header.subtitle">1+ Year of Experience &nbsp;·&nbsp; Front-End
+            &nbsp;·&nbsp; Mobile &nbsp;·&nbsp; Web</p>
+        </div>
+        <div class="availability-badge">
+          <span class="dot"></span>
+          <span data-i18n="header.badge">Open to Opportunities</span>
+        </div>
+      </div>
+      <section class="section">
+        <div class="section-label">
+          <span class="section-icon">◈</span>
+          <h2 data-i18n="section.objective">Objective</h2>
+        </div>
+        <p class="summary" data-i18n="objective.text">
+          With over one year of programming experience and strong communication skills, I have a solid product mindset,
+          prioritize user experience, and proactively learn and adopt new technologies. My goal is to become a developer
+          capable of delivering end-to-end products, from UI implementation to business logic. In the near future, I aim
+          to advance toward becoming a <strong>Full-stack Developer</strong>.
+        </p>
+      </section>
+      <section class="section">
+        <div class="section-label">
+          <span class="section-icon">◈</span>
+          <h2 data-i18n="section.experience">Work Experience</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="job-header">
+                <div>
+                  <h3 class="job-title" data-i18n="job1.title">Front-End Developer</h3>
+                  <p class="company">Homenest Software <span class="sep">·</span> <span class="emp-type"
+                      data-i18n="job1.type">Full-time</span></p>
+                </div>
+                <div class="job-meta">
+                  <span class="date-badge" data-i18n="job1.date">Jan 2026 – Present</span>
+                  <span class="location" data-i18n="job1.location">Ho Chi Minh City</span>
+                </div>
+              </div>
+              <ul class="achievements">
+                <li data-i18n="job1.li1">Built and maintained an <strong>Admin Dashboard</strong> with features
+                  including user management, role-based access control (RBAC), and real-time data visualization.</li>
+                <li data-i18n="job1.li2">Developed cross-platform mobile applications (iOS &amp; Android) using
+                  <strong>React Native</strong>, delivering consistent UI and smooth user experience.</li>
+                <li data-i18n="job1.li3">Collaborated with the Back-end team to design and review <strong>RESTful
+                    APIs</strong>, ensuring data structures aligned with front-end requirements.</li>
+                <li data-i18n="job1.li4">Integrated server-side APIs into the UI, handling complex data flows and
+                  optimizing application performance.</li>
+                <li data-i18n="job1.li5">Participated in technical requirement discussions to propose and evaluate
+                  front-end solutions across the team.</li>
+              </ul>
+              <div class="tech-stack">
+                <span class="tech">React Native</span>
+                <span class="tech">Next.js</span>
+                <span class="tech">TypeScript</span>
+                <span class="tech">Redux</span>
+                <span class="tech">REST API</span>
+                <span class="tech">RBAC</span>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="job-header">
+                <div>
+                  <h3 class="job-title" data-i18n="job2.title">Front-End Developer</h3>
+                  <p class="company">Rio Proxy <span class="sep">·</span> <span class="emp-type"
+                      data-i18n="job2.type">Full-time</span></p>
+                </div>
+                <div class="job-meta">
+                  <span class="date-badge" data-i18n="job2.date">Jul 2024 – Sep 2025</span>
+                  <span class="location" data-i18n="job2.location">Ho Chi Minh City</span>
+                </div>
+              </div>
+              <ul class="achievements">
+                <li data-i18n="job2.li1">Developed responsive and user-friendly web interfaces using <strong>HTML, CSS,
+                    Tailwind CSS</strong>, and JavaScript.</li>
+                <li data-i18n="job2.li2">Built interactive applications with <strong>React.js</strong> and
+                  <strong>Next.js</strong>.</li>
+                <li data-i18n="job2.li3">Integrated APIs to fetch and display dynamic data.</li>
+                <li data-i18n="job2.li4">Continuously optimized website performance to improve user experience.</li>
+                <li data-i18n="job2.li5">Collaborated with team members to maintain and enhance project features.</li>
+              </ul>
+              <div class="tech-stack">
+                <span class="tech">React.js</span>
+                <span class="tech">Next.js</span>
+                <span class="tech">Tailwind CSS</span>
+                <span class="tech">JavaScript</span>
+                <span class="tech">REST API</span>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="job-header">
+                <div>
+                  <h3 class="job-title" data-i18n="job3.title">Tester Intern</h3>
+                  <p class="company">Plott Company <span class="sep">·</span> <span class="emp-type"
+                      data-i18n="job3.type">Part-time</span></p>
+                </div>
+                <div class="job-meta">
+                  <span class="date-badge" data-i18n="job3.date">Nov 2021 – Jun 2022</span>
+                  <span class="location" data-i18n="job3.location">Ho Chi Minh City</span>
+                </div>
+              </div>
+              <ul class="achievements">
+                <li data-i18n="job3.li1">Participated in software quality assurance by testing features to ensure
+                  functionality and stability.</li>
+                <li data-i18n="job3.li2">Assisted in writing test cases based on product requirements.</li>
+                <li data-i18n="job3.li3">Executed functional, regression, and performance testing according to approved
+                  test scenarios.</li>
+                <li data-i18n="job3.li4">Identified, recorded, and reported software bugs and issues to the development
+                  team.</li>
+                <li data-i18n="job3.li5">Attended team meetings to discuss testing progress and address arising issues.
+                </li>
+              </ul>
+              <div class="tech-stack">
+                <span class="tech">Manual Testing</span>
+                <span class="tech">Test Cases</span>
+                <span class="tech">Bug Reporting</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="section-label">
+          <span class="section-icon">◈</span>
+          <h2 data-i18n="section.projects">Projects</h2>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-top">
+              <span class="project-icon">📱</span>
+              <span class="project-tag">Mobile</span>
+            </div>
+            <h4 class="project-name">Vietplus Mobile</h4>
+            <p class="project-meta-date" data-i18n="proj1.date">Mar 2026 – Present</p>
+            <p class="project-desc" data-i18n="proj1.desc">Developed a cross-platform mobile application (iOS &amp;
+              Android) using React Native and Expo, including building UI screens, navigation, REST API integration, and
+              state management with Redux. Ensured smooth user experience across various screen sizes.</p>
+            <div class="tech-stack" style="margin-top:10px">
+              <span class="tech">React Native</span>
+              <span class="tech">Expo</span>
+              <span class="tech">Redux</span>
+              <span class="tech">REST API</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-top">
+              <span class="project-icon">🖥️</span>
+              <span class="project-tag">Admin Web</span>
+            </div>
+            <h4 class="project-name">Admin Website Vietplus</h4>
+            <p class="project-meta-date" data-i18n="proj2.date">Jan 2026 – Mar 2026 &nbsp;·&nbsp; Team size: 1</p>
+            <p class="project-desc" data-i18n="proj2.desc">Key features: User management, reporting &amp; analytics,
+              role-based access control (RBAC), and full CRUD operations. Integrated REST API from backend. Optimized
+              for performance and user experience.</p>
+            <div class="tech-stack" style="margin-top:10px">
+              <span class="tech">Next.js</span>
+              <span class="tech">Tailwind CSS</span>
+              <span class="tech">RBAC</span>
+              <span class="tech">REST API</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-top">
+              <span class="project-icon">⚡</span>
+              <span class="project-tag">Admin Web</span>
+            </div>
+            <h4 class="project-name">Rio Proxy Admin</h4>
+            <p class="project-meta-date" data-i18n="proj3.date">Jul 2024 – Sep 2025 &nbsp;·&nbsp; Team size: 1</p>
+            <p class="project-desc" data-i18n="proj3.desc">Built an admin dashboard for a proxy management system with
+              full CRUD for proxy lists, real-time status monitoring, user role management, server-side rendering
+              (SSR/SSG) with Next.js, and fully responsive layout.</p>
+            <div class="tech-stack" style="margin-top:10px">
+              <span class="tech">Next.js</span>
+              <span class="tech">Tailwind CSS</span>
+              <span class="tech">SSR/SSG</span>
+              <span class="tech">REST API</span>
+            </div>
+          </div>
+
+          <!-- <div class="project-card">
+            <div class="project-top">
+              <span class="project-icon">🎵</span>
+              <span class="project-tag">Clone</span>
+            </div>
+            <h4 class="project-name">Clone TikTok Website</h4>
+            <p class="project-meta-date" data-i18n="proj4.date">Feb 2023 – Apr 2023</p>
+            <p class="project-desc" data-i18n="proj4.desc">Developed key UI components such as header, footer, and navigation bar. Created reusable components and implemented custom React hooks.</p>
+            <div class="project-links">
+              <a href="https://github.com/huuthao98/tiktik-i" target="_blank" class="project-link">GitHub →</a>
+            </div>
+            <div class="tech-stack" style="margin-top:10px">
+              <span class="tech">ReactJS</span>
+              <span class="tech">JavaScript</span>
+              <span class="tech">CSS</span>
+              <span class="tech">SCSS</span>
+            </div>
+          </div> -->
+        </div>
+      </section>
+      <section class="section">
+        <div class="section-label">
+          <span class="section-icon">◈</span>
+          <h2 data-i18n="section.education">Education</h2>
+        </div>
+        <div class="edu-grid">
+          <div class="edu-item">
+            <div class="edu-icon">🎓</div>
+            <div>
+              <h4 class="edu-degree" data-i18n="edu.degree">Information Security</h4>
+              <p class="edu-school">Academy of Cryptography Techniques</p>
+              <p class="edu-year">Jul 2017 – Apr 2023</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <button class="print-btn" onclick="window.print()" title="Print / Save as PDF" data-i18n="print.btn">🖨 Print /
+    PDF</button>
+
+  <script src="i18n.js"></script>
+</body>
+
+</html>
