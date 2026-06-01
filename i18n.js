@@ -12,6 +12,7 @@ const translations = {
     'lang.vietnamese': 'Vietnamese',
     'lang.native': 'Native',
     'lang.english': 'English',
+    'lang.ede': 'Ê-đê',
     'lang.basic': 'Basic',
 
     'header.subtitle': '2+ Year of Experience &nbsp;·&nbsp; Front-End &nbsp;·&nbsp; Mobile &nbsp;·&nbsp; Web',
@@ -86,6 +87,7 @@ const translations = {
     'lang.vietnamese': 'Tiếng Việt',
     'lang.native': 'Bản ngữ',
     'lang.english': 'Tiếng Anh',
+    'lang.ede': 'Tiếng Ê-đê',
     'lang.basic': 'Cơ bản',
 
     'header.subtitle': '2+ Năm kinh nghiệm &nbsp;·&nbsp; Front-End &nbsp;·&nbsp; Mobile &nbsp;·&nbsp; Web',
