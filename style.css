@@ -817,11 +817,17 @@ a:hover {
   box-shadow: 0 4px 20px rgba(108, 99, 255, 0.4);
   transition: transform var(--transition), box-shadow var(--transition);
   z-index: 100;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
 }
 
 .print-btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 30px rgba(108, 99, 255, 0.5);
+  color: #fff;
 }
 
 /* ===== PRINT STYLES ===== */

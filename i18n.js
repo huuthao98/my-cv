@@ -34,7 +34,7 @@ const translations = {
 
     'job2.title': 'Front-End Developer',
     'job2.type': 'Full-time',
-    'job2.date': 'Jul 2024 - Sep 2025',
+    'job2.date': 'Jul 2024 - Jan 2025',
     'job2.location': 'Ho Chi Minh City',
     'job2.li1': 'Developed responsive and user-friendly web interfaces using <strong>HTML, CSS, Tailwind CSS</strong>, and JavaScript.',
     'job2.li2': 'Built interactive applications with <strong>React.js</strong> and <strong>Next.js</strong>.',
@@ -70,6 +70,7 @@ const translations = {
     'edu.degree': 'Information Security',
 
     'print.btn': '🖨 Print / PDF',
+    'download.btn': '📥 Download CV',
   },
 
   vi: {
@@ -107,7 +108,7 @@ const translations = {
 
     'job2.title': 'Lập trình viên Front-End',
     'job2.type': 'Toàn thời gian',
-    'job2.date': 'Tháng 7/2024 - Tháng 9/2025',
+    'job2.date': 'Tháng 7/2024 - Tháng 1/2025',
     'job2.location': 'TP. Hồ Chí Minh',
     'job2.li1': 'Phát triển giao diện web responsive, thân thiện người dùng sử dụng <strong>HTML, CSS, Tailwind CSS</strong> và JavaScript.',
     'job2.li2': 'Xây dựng ứng dụng tương tác với <strong>React.js</strong> và <strong>Next.js</strong>.',
@@ -143,6 +144,7 @@ const translations = {
     'edu.degree': 'Bảo mật thông tin',
 
     'print.btn': '🖨 In / Xuất PDF',
+    'download.btn': '📥 Tải xuống CV',
   }
 };
 
