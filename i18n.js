@@ -69,6 +69,8 @@ const translations = {
 
     'section.education': 'Education',
     'edu.degree': 'Information Security',
+    'edu.school': 'Academy of Cryptography Techniques',
+    'edu.year': 'Jul 2017 – Apr 2023',
 
     'print.btn': '🖨 Print / PDF',
     'download.btn': '📥 Download CV',
@@ -144,6 +146,8 @@ const translations = {
 
     'section.education': 'Học vấn',
     'edu.degree': 'Bảo mật thông tin',
+    'edu.school': 'Học viện Kỹ thuật Mật mã',
+    'edu.year': 'Tháng 7/2017 – Tháng 4/2023',
 
     'print.btn': '🖨 In / Xuất PDF',
     'download.btn': '📥 Tải xuống CV',
