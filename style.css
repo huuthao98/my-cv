@@ -72,7 +72,7 @@
 
 [data-theme="dark"],
 [data-theme="dark"] body {
-  cursor: url('lamp-svgrepo-com.svg') 16 16, auto;
+  cursor: url('lamp-charge-svgrepo-com.svg') 12 12, auto;
 }
 
 [data-theme="dark"] a,
@@ -80,7 +80,7 @@
 [data-theme="dark"] .lang-btn,
 [data-theme="dark"] .theme-btn,
 [data-theme="dark"] .print-btn {
-  cursor: url('lamp-svgrepo-com.svg') 16 16, pointer;
+  cursor: url('lamp-charge-svgrepo-com.svg') 12 12, pointer;
 }
 
 html {
@@ -269,6 +269,26 @@ a:hover {
 }
 .theme-btn:hover {
   transform: scale(1.15);
+}
+
+/* Theme Button Icons */
+#icon-moon {
+  color: var(--accent); /* Fit the sidebar theme */
+  transition: color var(--transition);
+}
+
+#icon-sun {
+  color: #fde047; /* Bright yellow */
+  transition: color var(--transition);
+}
+
+.theme-btn:hover #icon-moon {
+  color: var(--accent-light);
+}
+
+.theme-btn:hover #icon-sun {
+  color: #fef08a;
+  filter: drop-shadow(0 0 6px rgba(253, 224, 71, 0.5));
 }
 
 

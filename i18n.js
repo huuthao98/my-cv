@@ -1,5 +1,7 @@
 const translations = {
   en: {
+    'name': 'Thao Nguyen',
+    'title': 'Front-End Developer',
     'sidebar.contact': 'Contact',
     'contact.gender': 'Male',
     'sidebar.skills': 'Core Skills',
@@ -77,6 +79,8 @@ const translations = {
   },
 
   vi: {
+    'name': 'Thảo Nguyễn',
+    'title': 'Lập trình viên Front-End',
     'sidebar.contact': 'Liên hệ',
     'contact.gender': 'Nam',
     'sidebar.skills': 'Kỹ năng',
