@@ -17,7 +17,7 @@ const translations = {
     'lang.ede': 'Ê-đê',
     'lang.basic': 'Basic',
 
-    'header.subtitle': '2+ Year of Experience &nbsp;·&nbsp; Front-End &nbsp;·&nbsp; Mobile &nbsp;·&nbsp; Web',
+    'header.subtitle': '2+ Year of Experience &nbsp;·&nbsp; Front-End &nbsp;·&nbsp; Mobile &nbsp;·&nbsp; Website',
     'header.badge': 'Open to Opportunities',
 
     'section.objective': 'Objective',
@@ -27,7 +27,7 @@ const translations = {
 
     'job1.title': 'Front-End Developer',
     'job1.type': 'Full-time',
-    'job1.date': 'Jan 2026 - Present',
+    'job1.date': 'Sep 2025 - Present',
     'job1.location': 'Ho Chi Minh City',
     'job1.li1': 'Built and maintained an <strong>Admin Dashboard</strong> with features including user management, role-based access control (RBAC), and real-time data visualization.',
     'job1.li2': 'Developed cross-platform mobile applications (iOS &amp; Android) using <strong>React Native</strong>, delivering consistent UI and smooth user experience.',
@@ -57,7 +57,7 @@ const translations = {
 
     'section.projects': 'Projects',
 
-    'proj1.date': 'Mar 2026 - Present',
+    'proj1.date': 'Jan 2026 - Present',
     'proj1.desc': 'Developed a cross-platform mobile application (iOS &amp; Android) using React Native and Expo, including building UI screens, navigation, REST API integration, and state management with Redux. Ensured smooth user experience across various screen sizes.',
 
     'proj2.date': 'Jan 2026 - Mar 2026 &nbsp;·&nbsp; Team size: 1',
@@ -75,7 +75,7 @@ const translations = {
     'edu.year': 'Jul 2017 – Apr 2023',
 
     'print.btn': '🖨 Print / PDF',
-    'download.btn': '📥 Download CV',
+    'download.btn': 'Download CV',
   },
 
   vi: {
@@ -96,7 +96,7 @@ const translations = {
     'lang.ede': 'Tiếng Ê-đê',
     'lang.basic': 'Cơ bản',
 
-    'header.subtitle': '2+ Năm kinh nghiệm &nbsp;·&nbsp; Front-End &nbsp;·&nbsp; Mobile &nbsp;·&nbsp; Web',
+    'header.subtitle': '2+ Năm kinh nghiệm &nbsp;·&nbsp; Front-End &nbsp;·&nbsp; Mobile &nbsp;·&nbsp; Website',
     'header.badge': 'Sẵn sàng nhận việc',
 
     'section.objective': 'Mục tiêu',
@@ -106,7 +106,7 @@ const translations = {
 
     'job1.title': 'Lập trình viên Front-End',
     'job1.type': 'Toàn thời gian',
-    'job1.date': 'Tháng 1/2026 - Hiện tại',
+    'job1.date': 'Tháng 9/2025 - Hiện tại',
     'job1.location': 'TP. Hồ Chí Minh',
     'job1.li1': 'Xây dựng và duy trì <strong>Admin Dashboard</strong> với các tính năng quản lý người dùng, phân quyền (RBAC) và trực quan hóa dữ liệu theo thời gian thực.',
     'job1.li2': 'Phát triển ứng dụng di động đa nền tảng (iOS &amp; Android) sử dụng <strong>React Native</strong>, đảm bảo giao diện nhất quán và trải nghiệm người dùng mượt mà.',
@@ -136,7 +136,7 @@ const translations = {
 
     'section.projects': 'Dự án',
 
-    'proj1.date': 'Tháng 3/2026 - Hiện tại',
+    'proj1.date': 'Tháng 1/2026 - Hiện tại',
     'proj1.desc': 'Phát triển ứng dụng di động đa nền tảng (iOS &amp; Android) sử dụng React Native và Expo, bao gồm xây dựng các màn hình giao diện, điều hướng, tích hợp REST API và quản lý trạng thái với Redux. Đảm bảo trải nghiệm mượt mà trên nhiều kích thước màn hình.',
 
     'proj2.date': 'Tháng 1/2026 - Tháng 3/2026 &nbsp;·&nbsp; Nhóm: 1 người',
@@ -149,12 +149,12 @@ const translations = {
     'proj4.desc': 'Phát triển các thành phần UI chính như header, footer và thanh điều hướng. Tạo component tái sử dụng và triển khai custom React hooks.',
 
     'section.education': 'Học vấn',
-    'edu.degree': 'Bảo mật thông tin',
-    'edu.school': 'Học viện Kỹ thuật Mật mã',
+    'edu.degree': 'An toàn thông tin',
+    'edu.school': 'Học Viện Kỹ Thuật Mật Mã',
     'edu.year': 'Tháng 7/2017 – Tháng 4/2023',
 
     'print.btn': '🖨 In / Xuất PDF',
-    'download.btn': '📥 Tải xuống CV',
+    'download.btn': 'Tải xuống CV',
   }
 };
 

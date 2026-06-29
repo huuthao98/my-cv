@@ -865,7 +865,16 @@ a:hover {
 }
 
 .edu-icon {
-  font-size: 28px;
+  width: clamp(36px, 6vw, 56px);
+  height: clamp(36px, 6vw, 56px);
+  flex-shrink: 0;
+}
+
+.edu-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 .edu-degree {
