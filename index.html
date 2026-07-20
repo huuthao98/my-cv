@@ -49,6 +49,14 @@
           </svg>
         </button>
       </div>
+      <div class="color-picker">
+        <button class="color-btn active" data-color="purple" style="--c: #6c63ff;" onclick="setThemeColor('purple')" title="Purple"></button>
+        <button class="color-btn" data-color="green" style="--c: #10b981;" onclick="setThemeColor('green')" title="Green"></button>
+        <button class="color-btn" data-color="blue" style="--c: #3b82f6;" onclick="setThemeColor('blue')" title="Blue"></button>
+        <button class="color-btn" data-color="orange" style="--c: #f97316;" onclick="setThemeColor('orange')" title="Orange"></button>
+        <button class="color-btn" data-color="rose" style="--c: #f43f5e;" onclick="setThemeColor('rose')" title="Rose"></button>
+      </div>
+
       <section class="sidebar-section">
         <h3 class="sidebar-heading" data-i18n="sidebar.contact">Contact</h3>
         <ul class="contact-list">
@@ -410,6 +418,30 @@
         iconSun.style.display = 'block';
       }
     }
+
+
+    // Theme Color setup
+    const currentColor = localStorage.getItem('themeColor') || 'purple';
+    document.documentElement.setAttribute('data-color', currentColor);
+
+    function setThemeColor(color) {
+      document.documentElement.setAttribute('data-color', color);
+      localStorage.setItem('themeColor', color);
+      
+      document.querySelectorAll('.color-btn').forEach(btn => {
+        if (btn.getAttribute('data-color') === color) {
+          btn.classList.add('active');
+        } else {
+          btn.classList.remove('active');
+        }
+      });
+    }
+
+    // Set initial active state
+    document.addEventListener('DOMContentLoaded', () => {
+      setThemeColor(currentColor);
+    });
+
 
     // Spotlight effect
     document.addEventListener('mousemove', (e) => {
