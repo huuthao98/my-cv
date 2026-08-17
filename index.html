@@ -49,13 +49,6 @@
           </svg>
         </button>
       </div>
-      <div class="color-picker">
-        <button class="color-btn active" data-color="purple" style="--c: #6c63ff;" onclick="setThemeColor('purple')" title="Purple"></button>
-        <button class="color-btn" data-color="green" style="--c: #10b981;" onclick="setThemeColor('green')" title="Green"></button>
-        <button class="color-btn" data-color="blue" style="--c: #3b82f6;" onclick="setThemeColor('blue')" title="Blue"></button>
-        <button class="color-btn" data-color="orange" style="--c: #f97316;" onclick="setThemeColor('orange')" title="Orange"></button>
-        <button class="color-btn" data-color="rose" style="--c: #f43f5e;" onclick="setThemeColor('rose')" title="Rose"></button>
-      </div>
 
       <section class="sidebar-section">
         <h3 class="sidebar-heading" data-i18n="sidebar.contact">Contact</h3>
@@ -353,24 +346,23 @@
             </div>
           </div>
 
-          <!-- <div class="project-card">
+          <div class="project-card">
             <div class="project-top">
-              <span class="project-icon">🎵</span>
-              <span class="project-tag">Clone</span>
+              <span class="project-tag" data-i18n="proj4.tag">Fullstack · Personal</span>
             </div>
-            <h4 class="project-name">Clone TikTok Website</h4>
-            <p class="project-meta-date" data-i18n="proj4.date">Feb 2023 – Apr 2023</p>
-            <p class="project-desc" data-i18n="proj4.desc">Developed key UI components such as header, footer, and navigation bar. Created reusable components and implemented custom React hooks.</p>
-            <div class="project-links">
-              <a href="https://github.com/huuthao98/tiktik-i" target="_blank" class="project-link">GitHub →</a>
-            </div>
+            <h4 class="project-name" data-i18n="proj4.name">Learning-Everything Platform</h4>
+            <p class="project-meta-date" data-i18n="proj4.date">Mar 2026 – Present &nbsp;·&nbsp; Personal Project</p>
+            <p class="project-desc" data-i18n="proj4.desc">Fullstack learning-everything platform (Chinese, Japanese, Korean, English). Features admin tools to create mock exams (TOEIC, HSK, NAT-TEST), exercises, and vocabulary drills. Integrated automated scoring, gamified point accumulation for user leveling, and level-based access control.</p>
             <div class="tech-stack" style="margin-top:10px">
-              <span class="tech">ReactJS</span>
-              <span class="tech">JavaScript</span>
-              <span class="tech">CSS</span>
-              <span class="tech">SCSS</span>
+              <span class="tech">Next.js</span>
+              <span class="tech">Node.js</span>
+              <span class="tech">TypeScript</span>
+              <span class="tech">Tailwind CSS</span>
+              <span class="tech">PostgreSQL</span>
+              <span class="tech">REST API</span>
+              <span class="tech">Gamification</span>
             </div>
-          </div> -->
+          </div>
         </div>
       </section>
       <section class="section">
@@ -420,27 +412,27 @@
     }
 
 
-    // Theme Color setup
-    const currentColor = localStorage.getItem('themeColor') || 'purple';
-    document.documentElement.setAttribute('data-color', currentColor);
+    // Auto Random Theme Color rotation (Every 5 minutes)
+    const THEME_COLORS = ['purple', 'green', 'blue', 'orange', 'rose'];
 
-    function setThemeColor(color) {
-      document.documentElement.setAttribute('data-color', color);
-      localStorage.setItem('themeColor', color);
-      
-      document.querySelectorAll('.color-btn').forEach(btn => {
-        if (btn.getAttribute('data-color') === color) {
-          btn.classList.add('active');
-        } else {
-          btn.classList.remove('active');
-        }
-      });
+    function getRandomThemeColor(excludeColor) {
+      const candidates = THEME_COLORS.filter(c => c !== excludeColor);
+      return candidates[Math.floor(Math.random() * candidates.length)];
     }
 
-    // Set initial active state
-    document.addEventListener('DOMContentLoaded', () => {
-      setThemeColor(currentColor);
-    });
+    function applyRandomThemeColor() {
+      const currentColor = document.documentElement.getAttribute('data-color') || 'rose';
+      const newColor = getRandomThemeColor(currentColor);
+      document.documentElement.setAttribute('data-color', newColor);
+      localStorage.setItem('themeColor', newColor);
+    }
+
+    // Initialize theme color
+    const initialColor = localStorage.getItem('themeColor') || 'rose';
+    document.documentElement.setAttribute('data-color', initialColor);
+
+    // Rotate theme color every 5 minutes (300,000 ms)
+    setInterval(applyRandomThemeColor, 5 * 60 * 1000);
 
 
     // Spotlight effect

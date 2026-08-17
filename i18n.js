@@ -66,8 +66,10 @@ const translations = {
     'proj3.date': 'Jul 2024 - Sep 2025 &nbsp;·&nbsp; Team size: 1',
     'proj3.desc': 'Built an admin dashboard for a proxy management system with full CRUD for proxy lists, real-time status monitoring, user role management, server-side rendering (SSR/SSG) with Next.js, and fully responsive layout.',
 
-    'proj4.date': 'Feb 2023 - Apr 2023',
-    'proj4.desc': 'Developed key UI components such as header, footer, and navigation bar. Created reusable components and implemented custom React hooks.',
+    'proj4.tag': 'Fullstack · Personal',
+    'proj4.name': 'Learning-Everything Platform',
+    'proj4.date': 'Mar 2026 – Present &nbsp;·&nbsp; Personal Project',
+    'proj4.desc': 'Fullstack learning-everything platform (Chinese, Japanese, Korean, English). Features admin tools to create mock exams (TOEIC, HSK, NAT-TEST), exercises, and vocabulary drills. Integrated automated scoring, gamified point accumulation for user leveling, and level-based access control.',
 
     'section.education': 'Education',
     'edu.degree': 'Information Security',
@@ -145,8 +147,10 @@ const translations = {
     'proj3.date': 'Tháng 7/2024 - Tháng 9/2025 &nbsp;·&nbsp; Nhóm: 1 người',
     'proj3.desc': 'Xây dựng trang quản trị hệ thống proxy với CRUD danh sách proxy, theo dõi trạng thái thời gian thực, phân quyền người dùng, SSR/SSG với Next.js và giao diện responsive trên mọi thiết bị.',
 
-    'proj4.date': 'Tháng 2/2023 - Tháng 4/2023',
-    'proj4.desc': 'Phát triển các thành phần UI chính như header, footer và thanh điều hướng. Tạo component tái sử dụng và triển khai custom React hooks.',
+    'proj4.tag': 'Fullstack · Cá nhân',
+    'proj4.name': 'Nền tảng Học Ngoại ngữ Đa ngôn ngữ',
+    'proj4.date': 'Tháng 3/2026 - Hiện tại &nbsp;·&nbsp; Dự án cá nhân',
+    'proj4.desc': 'Website học ngoại ngữ fullstack đa ngôn ngữ (Trung, Nhật, Hàn, Anh). Cho phép admin tạo và quản lý đề thi thử (TOEIC, HSK, NAT-TEST), bài luyện tập và ôn từ vựng. Tích hợp hệ thống tính điểm tự động, cơ chế tích lũy điểm nâng level người dùng và phân quyền/giới hạn truy cập bài học theo cấp độ.',
 
     'section.education': 'Học vấn',
     'edu.degree': 'An toàn thông tin',

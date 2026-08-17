@@ -32,7 +32,7 @@
   --transition: 0.25s ease;
 
   /* Theme (Light) */
-  --body-bg: #e8e9f5;
+  --body-bg: url('bg_5.png') center / cover no-repeat fixed;
   --card-bg: #ffffff;
   --card-border: #e8e9f5;
   --text-body: #4b5563;
@@ -44,7 +44,7 @@
 [data-theme="dark"] {
   --main-bg: #0f172a;
   --main-surface: #1e293b;
-  --body-bg: #020617;
+  --body-bg: url('bg_5.png') center / cover no-repeat fixed;
   --card-bg: #1e293b;
   --card-border: #334155;
   --text-primary: #f8fafc;
