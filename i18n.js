@@ -1,7 +1,7 @@
 const translations = {
   en: {
     'name': 'Thao Nguyen',
-    'title': 'Front-End Developer',
+    'title': 'Fullstack Developer',
     'sidebar.contact': 'Contact',
     'contact.gender': 'Male',
     'sidebar.skills': 'Core Skills',
@@ -17,15 +17,15 @@ const translations = {
     'lang.ede': 'Ê-đê',
     'lang.basic': 'Basic',
 
-    'header.subtitle': '2+ Year of Experience &nbsp;·&nbsp; Front-End &nbsp;·&nbsp; Mobile &nbsp;·&nbsp; Website',
+    'header.subtitle': '2+ Years of Experience &nbsp;·&nbsp; Front-End &nbsp;·&nbsp; Back-End &nbsp;·&nbsp; Mobile',
     'header.badge': 'Open to Opportunities',
 
     'section.objective': 'Objective',
-    'objective.text': 'With over two years of programming experience and strong communication skills, I have a solid product mindset, prioritize user experience, and proactively learn and adopt new technologies. My goal is to become a developer capable of delivering end-to-end products, from UI implementation to business logic. In the near future, I aim to advance toward becoming a <strong>Full-stack Developer</strong>.',
+    'objective.text': 'With over two years of programming experience and strong communication skills, I have a solid product mindset, prioritize user experience, and proactively learn and adopt new technologies. My goal is to become a developer capable of delivering end-to-end products, from UI implementation to business logic — a <strong>Fullstack Developer</strong>.',
 
     'section.experience': 'Work Experience',
 
-    'job1.title': 'Front-End Developer',
+    'job1.title': 'Fullstack Developer',
     'job1.type': 'Full-time',
     'job1.date': 'Sep 2025 - Present',
     'job1.location': 'Ho Chi Minh City',
@@ -82,7 +82,7 @@ const translations = {
 
   vi: {
     'name': 'Thảo Nguyễn',
-    'title': 'Lập trình viên Front-End',
+    'title': 'Lập trình viên Fullstack',
     'sidebar.contact': 'Liên hệ',
     'contact.gender': 'Nam',
     'sidebar.skills': 'Kỹ năng',
@@ -98,15 +98,15 @@ const translations = {
     'lang.ede': 'Tiếng Ê-đê',
     'lang.basic': 'Cơ bản',
 
-    'header.subtitle': '2+ Năm kinh nghiệm &nbsp;·&nbsp; Front-End &nbsp;·&nbsp; Mobile &nbsp;·&nbsp; Website',
+    'header.subtitle': '2+ Năm kinh nghiệm &nbsp;·&nbsp; Front-End &nbsp;·&nbsp; Back-End &nbsp;·&nbsp; Mobile',
     'header.badge': 'Sẵn sàng nhận việc',
 
     'section.objective': 'Mục tiêu',
-    'objective.text': 'Với hơn hai năm kinh nghiệm lập trình và kỹ năng giao tiếp tốt, tôi có tư duy sản phẩm vững chắc, ưu tiên trải nghiệm người dùng và chủ động học hỏi công nghệ mới. Mục tiêu của tôi là trở thành lập trình viên có khả năng phát triển sản phẩm toàn diện, từ giao diện đến logic nghiệp vụ. Trong tương lai gần, tôi hướng đến vị trí <strong>Full-stack Developer</strong>.',
+    'objective.text': 'Với hơn hai năm kinh nghiệm lập trình và kỹ năng giao tiếp tốt, tôi có tư duy sản phẩm vững chắc, ưu tiên trải nghiệm người dùng và chủ động học hỏi công nghệ mới. Mục tiêu của tôi là trở thành lập trình viên có khả năng phát triển sản phẩm toàn diện, từ giao diện đến logic nghiệp vụ — một <strong>Fullstack Developer</strong>.',
 
     'section.experience': 'Kinh nghiệm làm việc',
 
-    'job1.title': 'Lập trình viên Front-End',
+    'job1.title': 'Lập trình viên Fullstack',
     'job1.type': 'Toàn thời gian',
     'job1.date': 'Tháng 9/2025 - Hiện tại',
     'job1.location': 'TP. Hồ Chí Minh',
